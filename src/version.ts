@@ -1,0 +1,1 @@
+export declare const VERSION = "0.41.1";
