@@ -50,7 +50,6 @@ const sdk = new NodeSDK({
 
 })
 sdk.start()
-...
 ```
 
 Run your app (maybe called `app.js`) with `require` and `instrumentation.js`:
