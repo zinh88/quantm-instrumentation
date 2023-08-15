@@ -13,7 +13,7 @@ Make a directory for a node app (`my-app`) and install this package:
 ```
 $ npm install --save /path/to/quantm-instrumentation
 ```
-Create a file `instrumentation.js` to initialize the Node SDK in the `my-app` directory. Put `QuantmHttpInstrumentation` in the instrumentations. For example:
+Create a file `instrumentation.js` to initialize the Node SDK in the `my-app` directory. Put `QuantmHttpInstrumentation` in the instrumentations and add the `csID` from `process.env.QTM_CHANGESETID` etc in its config. For example:
 ```js
 // instrumentation.js
 const { NodeSDK } = require("@opentelemetry/sdk-node")
